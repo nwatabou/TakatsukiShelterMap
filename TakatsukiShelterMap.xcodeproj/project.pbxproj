@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6354AF421DB061E00013C657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354AF411DB061E00013C657 /* AppDelegate.swift */; };
+		6354AF441DB061E00013C657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6354AF431DB061E00013C657 /* ViewController.swift */; };
+		6354AF471DB061E00013C657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6354AF451DB061E00013C657 /* Main.storyboard */; };
+		6354AF4A1DB061E00013C657 /* TakatsukiShelterMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6354AF481DB061E00013C657 /* TakatsukiShelterMap.xcdatamodeld */; };
+		6354AF4C1DB061E00013C657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6354AF4B1DB061E00013C657 /* Assets.xcassets */; };
+		6354AF4F1DB061E00013C657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6354AF4D1DB061E00013C657 /* LaunchScreen.storyboard */; };
+		6354AF591DB06DC90013C657 /* takatsuki_city_Shelter.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6354AF581DB06DC90013C657 /* takatsuki_city_Shelter.csv */; };
+		BBD6A9AFAD9BF68EDB26AD4E /* Pods_TakatsukiShelterMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F480E81732733C1B2FE0D0 /* Pods_TakatsukiShelterMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6354AF3E1DB061E00013C657 /* TakatsukiShelterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakatsukiShelterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6354AF411DB061E00013C657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6354AF431DB061E00013C657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6354AF461DB061E00013C657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6354AF491DB061E00013C657 /* TakatsukiShelterMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakatsukiShelterMap.xcdatamodel; sourceTree = "<group>"; };
+		6354AF4B1DB061E00013C657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6354AF4E1DB061E00013C657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6354AF501DB061E00013C657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6354AF581DB06DC90013C657 /* takatsuki_city_Shelter.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = takatsuki_city_Shelter.csv; path = ../../../../Dropbox/matLab/takatsuki_city_Shelter.csv; sourceTree = "<group>"; };
+		6CC4BD526C88C3EC2DB2592D /* Pods-TakatsukiShelterMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakatsukiShelterMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakatsukiShelterMap/Pods-TakatsukiShelterMap.release.xcconfig"; sourceTree = "<group>"; };
+		80F480E81732733C1B2FE0D0 /* Pods_TakatsukiShelterMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakatsukiShelterMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5231598FAA86DA057178716 /* Pods-TakatsukiShelterMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakatsukiShelterMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakatsukiShelterMap/Pods-TakatsukiShelterMap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6354AF3B1DB061E00013C657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD6A9AFAD9BF68EDB26AD4E /* Pods_TakatsukiShelterMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D99A990F0EC09CEDD46C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80F480E81732733C1B2FE0D0 /* Pods_TakatsukiShelterMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4600BCCE6EE1D8F9EB51341A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5231598FAA86DA057178716 /* Pods-TakatsukiShelterMap.debug.xcconfig */,
+				6CC4BD526C88C3EC2DB2592D /* Pods-TakatsukiShelterMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6354AF351DB061E00013C657 = {
+			isa = PBXGroup;
+			children = (
+				6354AF401DB061E00013C657 /* TakatsukiShelterMap */,
+				6354AF3F1DB061E00013C657 /* Products */,
+				4600BCCE6EE1D8F9EB51341A /* Pods */,
+				44D99A990F0EC09CEDD46C10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6354AF3F1DB061E00013C657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6354AF3E1DB061E00013C657 /* TakatsukiShelterMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6354AF401DB061E00013C657 /* TakatsukiShelterMap */ = {
+			isa = PBXGroup;
+			children = (
+				6354AF411DB061E00013C657 /* AppDelegate.swift */,
+				6354AF431DB061E00013C657 /* ViewController.swift */,
+				6354AF451DB061E00013C657 /* Main.storyboard */,
+				6354AF4B1DB061E00013C657 /* Assets.xcassets */,
+				6354AF4D1DB061E00013C657 /* LaunchScreen.storyboard */,
+				6354AF501DB061E00013C657 /* Info.plist */,
+				6354AF481DB061E00013C657 /* TakatsukiShelterMap.xcdatamodeld */,
+				6354AF581DB06DC90013C657 /* takatsuki_city_Shelter.csv */,
+			);
+			path = TakatsukiShelterMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6354AF3D1DB061E00013C657 /* TakatsukiShelterMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6354AF531DB061E00013C657 /* Build configuration list for PBXNativeTarget "TakatsukiShelterMap" */;
+			buildPhases = (
+				DA808D7966950F198B507B6C /* [CP] Check Pods Manifest.lock */,
+				6354AF3A1DB061E00013C657 /* Sources */,
+				6354AF3B1DB061E00013C657 /* Frameworks */,
+				6354AF3C1DB061E00013C657 /* Resources */,
+				18E242994A9BAA6765CE0617 /* [CP] Embed Pods Frameworks */,
+				69C7F5A6E46FF8E72AF44686 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakatsukiShelterMap;
+			productName = TakatsukiShelterMap;
+			productReference = 6354AF3E1DB061E00013C657 /* TakatsukiShelterMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6354AF361DB061E00013C657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = nwatabou;
+				TargetAttributes = {
+					6354AF3D1DB061E00013C657 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GXEN49NFED;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6354AF391DB061E00013C657 /* Build configuration list for PBXProject "TakatsukiShelterMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6354AF351DB061E00013C657;
+			productRefGroup = 6354AF3F1DB061E00013C657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6354AF3D1DB061E00013C657 /* TakatsukiShelterMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6354AF3C1DB061E00013C657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6354AF4F1DB061E00013C657 /* LaunchScreen.storyboard in Resources */,
+				6354AF4C1DB061E00013C657 /* Assets.xcassets in Resources */,
+				6354AF471DB061E00013C657 /* Main.storyboard in Resources */,
+				6354AF591DB06DC90013C657 /* takatsuki_city_Shelter.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E242994A9BAA6765CE0617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakatsukiShelterMap/Pods-TakatsukiShelterMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C7F5A6E46FF8E72AF44686 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakatsukiShelterMap/Pods-TakatsukiShelterMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA808D7966950F198B507B6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6354AF3A1DB061E00013C657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6354AF4A1DB061E00013C657 /* TakatsukiShelterMap.xcdatamodeld in Sources */,
+				6354AF441DB061E00013C657 /* ViewController.swift in Sources */,
+				6354AF421DB061E00013C657 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6354AF451DB061E00013C657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6354AF461DB061E00013C657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6354AF4D1DB061E00013C657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6354AF4E1DB061E00013C657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6354AF511DB061E00013C657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6354AF521DB061E00013C657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6354AF541DB061E00013C657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5231598FAA86DA057178716 /* Pods-TakatsukiShelterMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXEN49NFED;
+				INFOPLIST_FILE = TakatsukiShelterMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwatabou.TakatsukiShelterMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6354AF551DB061E00013C657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC4BD526C88C3EC2DB2592D /* Pods-TakatsukiShelterMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXEN49NFED;
+				INFOPLIST_FILE = TakatsukiShelterMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwatabou.TakatsukiShelterMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6354AF391DB061E00013C657 /* Build configuration list for PBXProject "TakatsukiShelterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6354AF511DB061E00013C657 /* Debug */,
+				6354AF521DB061E00013C657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6354AF531DB061E00013C657 /* Build configuration list for PBXNativeTarget "TakatsukiShelterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6354AF541DB061E00013C657 /* Debug */,
+				6354AF551DB061E00013C657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6354AF481DB061E00013C657 /* TakatsukiShelterMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6354AF491DB061E00013C657 /* TakatsukiShelterMap.xcdatamodel */,
+			);
+			currentVersion = 6354AF491DB061E00013C657 /* TakatsukiShelterMap.xcdatamodel */;
+			path = TakatsukiShelterMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6354AF361DB061E00013C657 /* Project object */;
+}
